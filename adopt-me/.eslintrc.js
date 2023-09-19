@@ -2,6 +2,8 @@ module.exports = {
   extends: [
     // good set of default rules
     "eslint:recommended",
+    // detect import issues
+    "plugin:import/errors",
     // good set of default rules for react
     "plugin:react/recommended",
     // with jsx runtime, we can use jsx without importing React
