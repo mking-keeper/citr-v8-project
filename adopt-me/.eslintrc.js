@@ -16,6 +16,11 @@ module.exports = {
       // react plugin requires us to set this
       version: "detect",
     },
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx"],
+      },
+    },
   },
   plugins: [],
   parserOptions: {
