@@ -6,6 +6,8 @@ module.exports = {
     "plugin:import/errors",
     // good set of default rules for react
     "plugin:react/recommended",
+    // detect react hook issues
+    "plugin:react-hooks/recommended",
     // with jsx runtime, we can use jsx without importing React
     "plugin:react/jsx-runtime",
     // compatibility with prettier

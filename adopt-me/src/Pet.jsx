@@ -1,9 +1,8 @@
-const Pet = ({ name, breed }) => {
+const Pet = ({ name, animal, breed }) => {
   return (
     <div>
-      <h1>{name}</h1>
       <p>
-        {name} is a {breed}
+        <strong>{name}</strong> <em>({animal})</em> is a {breed}
       </p>
     </div>
   );
